@@ -1,0 +1,5 @@
+logs
+logs/*
+.nodemonignore
+jsbin.sqlite
+node_modules

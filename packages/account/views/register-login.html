@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="{{static}}/css/login.css{{cacheBust}}">
+<div id="login-register-page" class="form-container {{show}}">
+    <div class="tabs register">
+        <a class="tab register" href="{{root}}/register">
+            <span>还没有账号？</span> 注册
+        </a>
+        <a class="tab login" href="{{root}}/login">
+            <span>有账号</span> 登录
+        </a>
+    </div>
+    <div class="info {{#if flash}}active{{/if}}">
+        <p>{{{flash}}}</p>
+    </div>
+    <form action="{{root}}/register" method="post" class="register">
+        {{> register}}
+        <input type="hidden" name="_csrf" value="{{token}}">
+        <input type="hidden" name="referrer" value="{{referrer}}">
+    </form>
+    <form action="{{root}}/login" method="post" class="login{{#if forgotten}} forgotten{{/if}}" id="login">
+        {{> login}}
+        <input type="hidden" name="_csrf" value="{{token}}">
+        <input type="hidden" name="referrer" value="{{referrer}}">
+    </form>
+</div>
+<a class="btn-github" href="{{root}}/auth/github">
+    <img src="{{static}}/images/github-32.png" alt=""> 使用Github账户登录
+</a>

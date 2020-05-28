@@ -1,0 +1,4 @@
+logs
+logs/*
+.nodemonignore
+node_modules

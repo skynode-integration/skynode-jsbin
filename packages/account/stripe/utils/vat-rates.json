@@ -1,0 +1,90 @@
+{
+  "last_updated": "2017-01-27",
+  "notes": "generated using @remy/eu-tax-rates/lib/convert.js",
+  "rates": {
+    "AT": {
+      "standard_rate": 20
+    },
+    "BE": {
+      "standard_rate": 21
+    },
+    "BG": {
+      "standard_rate": 20
+    },
+    "CY": {
+      "standard_rate": 19
+    },
+    "CZ": {
+      "standard_rate": 21
+    },
+    "DE": {
+      "standard_rate": 19
+    },
+    "DK": {
+      "standard_rate": 25
+    },
+    "EE": {
+      "standard_rate": 20
+    },
+    "ES": {
+      "standard_rate": 21
+    },
+    "FI": {
+      "standard_rate": 24
+    },
+    "FR": {
+      "standard_rate": 20
+    },
+    "GB": {
+      "standard_rate": 20
+    },
+    "GR": {
+      "standard_rate": 24
+    },
+    "HR": {
+      "standard_rate": 25
+    },
+    "HU": {
+      "standard_rate": 27
+    },
+    "IE": {
+      "standard_rate": 23
+    },
+    "IT": {
+      "standard_rate": 22
+    },
+    "LT": {
+      "standard_rate": 21
+    },
+    "LU": {
+      "standard_rate": 17
+    },
+    "LV": {
+      "standard_rate": 21
+    },
+    "MT": {
+      "standard_rate": 18
+    },
+    "NL": {
+      "standard_rate": 21
+    },
+    "PL": {
+      "standard_rate": 23
+    },
+    "PT": {
+      "standard_rate": 23
+    },
+    "RO": {
+      "standard_rate": 19
+    },
+    "SE": {
+      "standard_rate": 25
+    },
+    "SI": {
+      "standard_rate": 22
+    },
+    "SK": {
+      "standard_rate": 20
+    }
+  }
+}
