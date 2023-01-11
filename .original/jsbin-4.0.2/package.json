@@ -43,7 +43,7 @@
     "cookie-parser": "^1.4.3",
     "cookie-session": "^2.0.0-alpha.2",
     "csurf": "^1.9.0",
-    "debug": "^2.2.0",
+    "debug": "^3.1.0",
     "denodeify": "^1.2.1",
     "dropbox": "~0.10.2",
     "express": "^4.15.2",
